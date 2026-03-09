@@ -1,0 +1,25 @@
+<h1>Netflixpedia</h1>
+<div>
+  <h2>Top 10 filmes dublados</h2>
+  <div class="title-wrapper">
+    <app-title-card *ngFor="let movie of top10Movies()" [title]="movie" />
+  </div>
+</div>
+<div>
+  <h2>Top 10 series dubladas</h2>
+  <div class="title-wrapper">
+    <app-title-card *ngFor="let serie of top10Series()" [title]="serie" />
+  </div>
+</div>
+<div>
+  <h2>Top 10 filmes legendados</h2>
+  <div class="title-wrapper">
+    <app-title-card *ngFor="let movie of top10SubtitledMovies()" [title]="movie" />
+  </div>
+</div>
+<div>
+  <h2>Top 10 series legendadas</h2>
+  <div class="title-wrapper">
+    <app-title-card *ngFor="let serie of top10SubtitledSeries()" [title]="serie" />
+  </div>
+</div>

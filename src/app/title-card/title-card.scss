@@ -1,0 +1,25 @@
+.card{
+  background-color: #F5EDED;
+  padding: 1rem;
+  width: fit-content;
+
+  h3{
+    color: #000;
+    background-color: #FFEFEF;
+    border-bottom: 1px solid;
+  }
+
+  &-content{
+    width: 240px;
+    img{
+      width: 240px;
+      height: 340px;
+    }
+    p{
+      text-overflow: ellipsis;
+      white-space: nowrap;
+      overflow: hidden;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+  }
+}

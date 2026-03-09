@@ -1,1 +1,17 @@
 /* You can add global styles to this file, and also import other style files */
+h1,p,a,h2 {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+h1 {
+  color: #DB202C;
+}
+
+h2 {
+  color: white;
+}
+
+body {
+  background-color: #141414;
+  padding: 1rem 4rem;
+}

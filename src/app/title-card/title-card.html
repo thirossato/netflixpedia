@@ -1,0 +1,9 @@
+<div class="card">
+  <h3>{{title.title}}</h3>
+  <p>{{title.year}}</p>
+  <div class="card-content">
+    <img [src]="title.poster?.trim()?.toUpperCase() !== 'N/A' && title.poster?.trim() ? title.poster : title.img" />
+    <p>{{title.synopsis}}</p>
+  </div>
+
+</div>
